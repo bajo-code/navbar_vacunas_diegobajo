@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1 {
+    margin: 50px;
+    font-size: 2em;
+    font-weight: 700;
+    color: #111;
+}
+
+.tabla{
+    text-align: center;
+    border: 3px solid black; 
+    margin: auto;   
+    width: 50%;
+}
+.tabla th{
+    border: 2px solid black;
+    padding: 25px;
+}
+.tabla td{
+    font-weight: bold;
+    border: 2px solid black;
+    color: rgb(0, 132, 255);
+    padding: 25px;
+}
+.tabla td:hover{
+    text-decoration: underline;
+    color: rgb(0, 132, 255);
+}
+#comunidades tr:hover{
+    
+    color: white;
+}
+#porcentajes td{
+    font-weight: bold;
+    color: rgb(233, 60, 60);
+}
+#porcentajes td:hover{
+    color: rgb(233, 60, 60);
+    text-decoration: underline;
+}
